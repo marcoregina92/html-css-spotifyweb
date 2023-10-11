@@ -1,6 +1,79 @@
+/* --- GENERIC --- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #222222;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* --- NAV --- */
+
+nav {
+    background: #000000;
+    height: calc(100% - 90px);
+    width: 200px;
+}
+
+
+/* --- MAIN --- */
+
+
+main {
+    height: calc(100% - 90px);
+    width: calc(100% - 200px);
+    background: #141922;
+}
+
+.top-bar {
+    min-height: 90px;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.button-white {
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.genre {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.genre-item {
+    color: grey;
+    padding: 20px 15px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* --- FOOTER --- */
+
+
+footer {
+    width: 100%;
+    height: 90px;
+    background: #282828;
+}
