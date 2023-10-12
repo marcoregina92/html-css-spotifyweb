@@ -304,5 +304,26 @@ footer {
 .footer-right {
     width: 20%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
+.volume-line {
+    background-color: #5a5a5a;
+    width: 128px;
+    height: 6px;
+    border-radius: 25px;
+    margin: 0 15px;
+}
+
+.consumed-white{
+    background-color: #c1c1c1;
+    width: 30%;
+    height: 5px;
+    border-radius: 25px;
+}
+
+.sound-icon i {
+    margin-right: 20px;
 }
