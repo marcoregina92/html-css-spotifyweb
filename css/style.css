@@ -30,8 +30,10 @@ h2 {
 /* --- UTILITIES --- */
 
 #filter-grey {filter: invert(0.5);}
+.m-10{margin: 10px;}
 .m-bott-10{margin-bottom: 10px;}
 .m-bott-20{margin-bottom: 20px;}
+.m-right-20{margin-right: 20px;}
 
 
 /* --- NAV --- */
@@ -232,4 +234,75 @@ footer {
     width: 100%;
     height: 90px;
     background: #282828;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.text-footer {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.footer-center {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.play-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.play-button i {
+    padding-right: 1.5rem;
+
+}
+
+.play-big {
+    font-size: 2rem;
+}
+
+.minute-line {
+    width: 100%;
+    display: flex;
+}
+
+.grey-line {
+    background-color: #5a5a5a;
+    width: 100%;
+    height: 6px;
+    border-radius: 25px;
+    align-self: center;
+    margin: 0 16px;
+}
+
+.time-consumed {
+    background-color: #c1c1c1;
+    width: 30%;
+    height: 6px;
+    border-radius: 25px;
+}
+
+.footer-right {
+    width: 20%;
+    height: 100%;
+
 }
