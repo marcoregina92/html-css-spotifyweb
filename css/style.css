@@ -19,6 +19,19 @@ body {
     flex-wrap: wrap;
 }
 
+h2 {
+    font-weight: 800;
+}
+
+.color-grey {
+    color: gray;
+}
+
+/* --- UTILITIES --- */
+
+#filter-grey {filter: invert(0.5);}
+.m-bott-10{margin-bottom: 10px;}
+.m-bott-20{margin-bottom: 20px;}
 
 
 /* --- NAV --- */
@@ -27,8 +40,101 @@ nav {
     background: #000000;
     height: calc(100% - 90px);
     width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
+.logo-spotify {
+    width: 80%;
+}
+
+.top-nav {
+    font-weight: 800;
+    padding: 15px;
+}
+
+.bottom-nav {
+    width: 100%;
+    padding: 10px;
+    font-weight: 800;
+    color: grey;
+}
+
+.text-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 14px;
+}
+
+.install-app {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.install-app h5 {
+    margin-left: 10px;
+}
+
+.user-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.user-box h4 {
+    color: white;
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.user-image {
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.john-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.logo-spotify {
+    margin-bottom: 20px;
+}
+
+.logo-nav {
+    width: 1.5em;
+    margin-right: 5px;
+}
+
+.square {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    color: gray;
+}
+
+.square i {
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+li {
+    list-style-type: none;
+    color: gray;
+    font-size: 12px;
+}
+
+ul h5 {
+    margin: 20px 0 10px 0;
+    font-weight: 900;
+}
 
 /* --- MAIN --- */
 
