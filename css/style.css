@@ -181,7 +181,7 @@ main {
     color: grey;
     padding: 20px 15px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -346,12 +346,17 @@ footer {
     .content-card {
         width: calc(100% / 2);
     }
+
+    .genre-item {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 625px){
     .volume-line {
         width: 100px;
     }
+    
 }
 
 @media screen and (max-width: 576px){
@@ -409,7 +414,7 @@ footer {
     }
 
      .button-white {
-        font-size: 15px;
+        font-size: 13px;
         font-size: 17px;
         border: 2px solid white;
         border-radius: 25px;
