@@ -324,6 +324,18 @@ footer {
     width: 30%;
     height: 6px;
     border-radius: 25px;
+    position: relative;
+}
+
+.point {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -4.5px;
+    left: 108px;
+    display: none;
 }
 
 .footer-right {
@@ -499,3 +511,11 @@ footer {
 .content-card:hover .hover-filter{
     filter: brightness(.5);
 }
+
+.grey-line:hover .point {
+    display: block;
+
+}
+
+
+
