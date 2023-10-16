@@ -279,6 +279,14 @@ footer {
     font-size: 14px;
 }
 
+.text-footer > h5 {
+    color: grey;
+}
+
+.favorites-icon{
+    color: grey;
+}
+
 .footer-center {
     width: calc(100% / 3);
     height: 100%;
@@ -361,6 +369,17 @@ footer {
     width: 30%;
     height: 5px;
     border-radius: 25px;
+}
+
+.point-audio {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    bottom: 37px;
+    display: none;
 }
 
 
@@ -512,10 +531,26 @@ footer {
     filter: brightness(.5);
 }
 
-.grey-line:hover .point {
+.minute-line:hover .point {
     display: block;
-
 }
 
+.minute-line:hover .time-consumed {
+   background-color: greenyellow;
+}
 
+.play-big:hover{
+    transform: scale(1.1);
+}
 
+.heart-hover:hover, .folder-hover:hover{
+    color: white;
+}
+
+.volume-line:hover .point-audio {
+    display: block;
+}
+
+.volume-line:hover .consumed-white{
+    background-color: greenyellow;
+}
